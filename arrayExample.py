@@ -8,3 +8,21 @@ print (arr1)
 
 arr.append(12)
 print (arr)
+
+arr.insert(0, 0)
+print (arr)
+
+arr.extend([1,3,5,7,9,11])
+print(arr)
+
+for i in arr:
+     print(i)
+
+print(arr[0])
+
+arr.remove(arr[0])
+print(arr)
+
+
+
+
